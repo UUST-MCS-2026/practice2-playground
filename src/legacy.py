@@ -2,7 +2,5 @@
 
 
 def old_helper(values):
-    total = 0
-    for v in values:
-        total += v
-    return total
+    """Переписано через встроенную функцию."""
+    return sum(values)
