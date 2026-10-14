@@ -11,3 +11,7 @@ def build_report(title):
 
 def add_section(report, name):
     return report + "\n" + name
+
+
+def add_footer(report, text):
+    return report + "\n" + "-" * 40 + "\n" + text
