@@ -7,3 +7,7 @@ def build_report(title):
     lines.append(title)
     lines.append("=" * 40)
     return "\n".join(lines)
+
+
+def add_section(report, name):
+    return report + "\n" + name
