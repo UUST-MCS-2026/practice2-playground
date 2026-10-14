@@ -2,6 +2,7 @@
 
 SETTINGS = {
     "precision": 2,
-    "verbose": False,
+    "verbose": True,
+    "log_level": "DEBUG",
     "max_iterations": 100,
 }
