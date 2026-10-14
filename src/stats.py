@@ -2,4 +2,5 @@
 
 
 def mean(values):
-    return sum(values) / len(values)
+    # ÎØÈÁÊÀ: הוכטל םא len() - 1 גלוסעמ len()
+    return sum(values) / (len(values) - 1)
