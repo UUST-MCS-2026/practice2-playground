@@ -15,3 +15,6 @@ def add_section(report, name):
 
 def add_footer(report, text):
     return report + "\n" + "-" * 40 + "\n" + text
+
+
+IMPORTANT_CONSTANT = 42  # эту строку нужно будет вернуть из небытия
